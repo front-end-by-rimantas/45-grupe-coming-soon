@@ -1,10 +1,46 @@
 .container {
+    padding: 60px 0;
 }
 
 .row {
-    background-color: yellow;
+    width: 1000px;
+    margin: 0 calc((100% - 1000px) / 2);
 }
 
 .row-short {
-    background-color: orange;
+    width: 600px;
+    margin: 0 calc((100% - 600px) / 2);
+}
+
+@media (max-width: 1100px) {
+    .row {
+        width: 800px;
+        margin: 0 calc((100% - 800px) / 2);
+    }
+}
+
+@media (max-width: 900px) {
+    .row {
+        width: 600px;
+        margin: 0 calc((100% - 600px) / 2);
+    }
+}
+
+@media (max-width: 700px) {
+    .row,
+    .row-short {
+        width: 400px;
+        margin: 0 calc((100% - 400px) / 2);
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 40px 15px;
+    }
+    .row,
+    .row-short {
+        width: 100%;
+        margin: 0;
+    }
 }
