@@ -10,6 +10,7 @@
 /* CUSTOM CSS */
 
 .hero {
+    min-height: 100vh;
     background-color: yellow;
     background-image: url(../../img/background.png);
     background-repeat: no-repeat;
