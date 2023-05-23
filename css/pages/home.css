@@ -3,6 +3,8 @@
 @import '../base/layout.css';
 
 /* vendor */
+@import '../vendor/font-awesome.min.css';
+@import '../vendor/roboto.css';
 
 /* components */
 @import '../components/button.css';
@@ -30,6 +32,8 @@
     object-fit: contain;
 }
 .main-title {
+    font-family: Roboto;
+    font-weight: bold;
     font-size: 70px;
     letter-spacing: -5px;
     text-align: center;
@@ -55,4 +59,31 @@
 }
 .column-description > a:hover {
     text-decoration: underline;
+}
+
+footer.container {
+    padding-top: 0;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0;
+    font-size: 20px;
+    gap: 0.5em;
+    border-bottom: 1px solid #fff;
+}
+.socials > a {
+    width: 2.4em;
+    height: 2.4em;
+    line-height: 2.4em;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.socials > a:hover {
+    background-color: #fff;
+    color: var(--main-color);
 }
