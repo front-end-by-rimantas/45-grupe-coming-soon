@@ -9,6 +9,7 @@
 /* components */
 @import '../components/button.css';
 @import '../components/clock.css';
+@import '../components/progress-bar.css';
 
 /* CUSTOM CSS */
 
