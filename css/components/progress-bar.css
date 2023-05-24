@@ -1,14 +1,30 @@
 .progress-bar-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 .progress-bar-group > .progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
 }
-.progress-bar-group > .progress-bar > .top {
+.progress-bar-group .top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #777;
 }
-.progress-bar-group > .progress-bar > .top > .title {
+.progress-bar-group .title {
 }
-.progress-bar-group > .progress-bar > .top > .label {
+.progress-bar-group .value {
 }
-.progress-bar-group > .progress-bar > .bottom {
+.progress-bar-group .bottom {
+    width: 100%;
+    height: 6px;
+    background-color: #ccc;
 }
-.progress-bar-group > .progress-bar > .bottom > .progress {
+.progress-bar-group .progress {
+    width: 90%;
+    height: inherit;
+    background-color: #36f;
 }
