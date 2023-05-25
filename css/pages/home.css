@@ -8,6 +8,8 @@
 
 /* components */
 @import '../components/button.css';
+@import '../components/clock.css';
+@import '../components/progress-bar.css';
 
 /* CUSTOM CSS */
 
@@ -42,6 +44,23 @@
 .main-description {
     text-align: center;
     font-size: 20px;
+}
+
+.column-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.column-description {
+    font-size: 17px;
+    line-height: 1.7em;
+    color: #777;
+}
+.column-description > a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.column-description > a:hover {
+    text-decoration: underline;
 }
 
 footer.container {
