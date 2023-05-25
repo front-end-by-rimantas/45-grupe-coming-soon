@@ -1,0 +1,41 @@
+.btn {
+    display: inline-block;
+    padding: 1em 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: -1px 3px 5px 0 #0003;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+}
+
+.btn.btn-sm {
+}
+.btn.btn-lg {
+}
+.btn.btn-xl {
+}
+.btn.btn-xxl {
+}
+
+.btn.btn-succes {
+}
+.btn.btn-error {
+}
+.btn.btn-cancel {
+}
+.btn.btn-info {
+}
+
+.btn.btn-angle {
+    border-radius: 0;
+}
+.btn.btn-round {
+}
