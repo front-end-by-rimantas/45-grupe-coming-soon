@@ -70,6 +70,7 @@ footer.container {
 .socials {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 0.5em 0;
     font-size: 20px;
     gap: 0.5em;
@@ -88,6 +89,7 @@ footer.container {
 .socials > a:hover {
     background-color: #fff;
     color: var(--main-color);
+    text-decoration: none;
 }
 
 footer .logo {
