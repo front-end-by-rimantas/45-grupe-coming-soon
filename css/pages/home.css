@@ -96,13 +96,18 @@ footer .logo {
 
 .text-trio {
     text-align: center;
-    /* color: #fff; */
-    /* color: rgb(255, 255, 255); */
     color: rgba(255, 255, 255, 0.6);
 }
 .text-trio > span {
 }
 .text-trio > span > a {
+}
+.text-trio > .line {
+    display: inline-block;
+    background-color: #fff;
+    width: 2px;
+    height: 12px;
+    margin: 0 10px;
 }
 
 .footer-bottom {
@@ -116,4 +121,13 @@ footer a {
 }
 footer a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .text-trio > span {
+        display: block;
+    }
+    .text-trio > .line {
+        display: none;
+    }
 }
